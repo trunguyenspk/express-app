@@ -49,8 +49,6 @@ const PI = 3.14;
 const obj = {'name': 'constant'};
 obj.type = 'Something go wrong!'; // This is okay
 
-//-------
-
 module.exports = {
     ENV,
 };
