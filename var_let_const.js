@@ -2,6 +2,8 @@
 
 const ENV = 'DEVELOPMENT';
 
+exports.something = "SOMETHING";
+
 function addWithDoubleValue(a, b) {
     //doubleA and doubleB only valid in this function
     var doubleA = a * 2;
@@ -49,6 +51,7 @@ const PI = 3.14;
 const obj = {'name': 'constant'};
 obj.type = 'Something go wrong!'; // This is okay
 
+//https://stackoverflow.com/questions/16383795/difference-between-module-exports-and-exports-in-the-commonjs-module-system
 module.exports = {
     ENV,
 };
